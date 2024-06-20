@@ -15,8 +15,8 @@
 ```.env
 DEEPL_API_KEY=hogehogeapikey
 ```
-
-5. VSCodeにくっついているターミナルなどで下記コマンドを打つ
+6. `my_deepl_cli`直下に翻訳したいファイルを配置する
+7. VSCodeにくっついているターミナルなどで下記コマンドを打つ
 
 ```sh
 python translate_doc.py --input_file {翻訳したいファイル名} --output_file {出力ファイル名}
@@ -25,4 +25,4 @@ python translate_doc.py --input_file {翻訳したいファイル名} --output_f
 python translate_doc.py --input_file hoge.pdf --output_file fuga.pdf
 ```
 
-6. しばらく待てば翻訳済みのファイルが多分出力されます
+8. しばらく待てば翻訳済みのファイルが多分出力されます
