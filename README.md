@@ -7,7 +7,7 @@
 ## 使い方
 
 1. `my_deepl_cli`をVSCodeなどで開く
-2. `requirements.txt`に記述されているpythonのライブラリをインポートする
+2. `requirements.txt`に記述されているpythonのライブラリをインポートする( `pip install -r requirements.txt` )
 3. `my_deepl_cli`直下に`.env`ファイルを作成する
 4. DeepLのAPI KEYを取得してくる
 5. `.env`に`DEEPL_API_KEY=`に取得したAPI KEYを入力する
